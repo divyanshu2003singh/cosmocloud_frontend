@@ -1,0 +1,122 @@
+/* Style for the container */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the flex container to place input and result side by side */
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* Horizontal scrollbar for the flex container */
+  max-width: 100%;
+  margin-bottom: 20px; /* Add some spacing at the bottom */
+}
+
+/* Style for the input section */
+.input-section {
+  flex: 1; /* Equal width for both sections */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+/* Style for the result section */
+.result-section {
+  flex: 1; /* Equal width for both sections */
+  padding: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+
+/* Style for headers (Input Fields and Result) */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style for input fields */
+.input-fields {
+  max-height: 400px; /* Limit the height of the input fields section */
+  overflow-y: auto; /* Vertical scrollbar for input fields */
+}
+
+/* Style for field boxes */
+.field-box {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for labels */
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Style for input fields */
+.ant-input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for select dropdowns */
+.ant-select {
+  width: 80%;
+}
+
+/* Style for buttons */
+.ant-btn {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.ant-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Style for nested fields */
+.nested-field {
+  margin-left: 20px;
+  border-left: 2px solid #007bff;
+  padding-left: 20px;
+}
+
+/* Style for delete buttons */
+.delete-button {
+  background-color: #ff4d4f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+/* Style for JSON preview */
+.json-preview {
+  max-height: 400px; /* Limit the height of the result section */
+  overflow-y: auto; /* Vertical scrollbar for JSON preview */
+  margin-top: 10px; /* Add some spacing at the top */
+  padding: 15px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: #333;
+}
