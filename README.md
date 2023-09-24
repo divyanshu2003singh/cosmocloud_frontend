@@ -1,4 +1,4 @@
-Certainly, here's a more human-readable version of the README.md file with a friendlier and more conversational tone:
+
 
 ```markdown
 # SchemaBuilder Component
