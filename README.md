@@ -4,7 +4,7 @@
 # SchemaBuilder Component  
   
 Welcome to the SchemaBuilder component! This nifty React component allows you to effortlessly create and visualize data schemas. Whether you're building a JSON configuration, a database schema, or just want to organize your data, SchemaBuilder has got you covered. 
-
+ 
 ## Features
 
 ### Build Schemas with Ease
